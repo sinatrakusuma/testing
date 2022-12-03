@@ -1,12 +1,12 @@
 import RestaurantData from '../../data/restaurant-data';
 import cardComponent from '../templates/card-component';
-import '../../components/jumbotron';
+import '../../components/heroimage';
 
 const Home = {
   async render() {
     return `
     
-    <jumbotron-element></jumbotron-element>
+    <hero-image></hero-image>
         <div class="card-container"></div>
       `;
   },
